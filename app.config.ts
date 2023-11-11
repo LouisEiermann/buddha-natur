@@ -38,6 +38,9 @@ export default defineAppConfig({
       successMessage: 'Message sent. Thank you!'
     }
   },
-  link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+  app: {
+    head: {
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    }
+  },
 })
