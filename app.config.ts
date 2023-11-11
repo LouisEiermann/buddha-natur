@@ -22,7 +22,7 @@ export default defineAppConfig({
     footer: {
       credits: {
         // possible value are : true | false
-        enabled: true,
+        enabled: false,
 
         // our github repository
         repository: 'https://www.github.com/nuxt-themes/alpine',
@@ -35,7 +35,6 @@ export default defineAppConfig({
     },
 
     socials: {
-      instagram: 'test',
     },
 
     form: {
