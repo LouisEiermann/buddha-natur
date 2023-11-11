@@ -25,16 +25,18 @@ export default defineAppConfig({
         enabled: false,
 
         // our github repository
-        repository: 'https://www.github.com/nuxt-themes/alpine',
+        repository: '',
 
-        text: 'Buddhanatur',
+        text: '',
       },
       navigation: true, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
-      message: 'Folg mir' // string that will be displayed in the footer (leave empty or delete to disable)
+      message: '' // string that will be displayed in the footer (leave empty or delete to disable)
     },
 
     socials: {
+      twitter: '',
+      instagram: '',
     },
 
     form: {
