@@ -37,6 +37,7 @@ export default defineAppConfig({
     socials: {
       twitter: '',
       instagram: '',
+      linkedin: ''
     },
 
     form: {
