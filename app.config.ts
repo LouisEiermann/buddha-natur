@@ -13,8 +13,8 @@ export default defineAppConfig({
     header: {
       position: 'center', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/logo-white.svg', // path of the logo
-        pathDark: '/logo.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        path: '/logo/logo-white.svg', // path of the logo
+        pathDark: '/logo/logo.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
         alt: 'Buddhanatur' // alt of the logo
       }
     },
